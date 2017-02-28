@@ -12,6 +12,7 @@
 		BB96939B1E61EC9400F56242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9693991E61EC9400F56242 /* Main.storyboard */; };
 		BB96939D1E61EC9400F56242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB96939C1E61EC9400F56242 /* Assets.xcassets */; };
 		BB9693A01E61EC9400F56242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96939E1E61EC9400F56242 /* LaunchScreen.storyboard */; };
+		DCBCB3CF1E6414CD0008DD61 /* CommonScreen in Resources */ = {isa = PBXBuildFile; fileRef = DCBCB3CE1E6414CD0008DD61 /* CommonScreen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB96939C1E61EC9400F56242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB96939F1E61EC9400F56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9693A11E61EC9400F56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBCB3CE1E6414CD0008DD61 /* CommonScreen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonScreen; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		BB9693AA1E61F02C00F56242 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DCBCB3CE1E6414CD0008DD61 /* CommonScreen */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9693A01E61EC9400F56242 /* LaunchScreen.storyboard in Resources */,
+				DCBCB3CF1E6414CD0008DD61 /* CommonScreen in Resources */,
 				BB96939D1E61EC9400F56242 /* Assets.xcassets in Resources */,
 				BB96939B1E61EC9400F56242 /* Main.storyboard in Resources */,
 			);
