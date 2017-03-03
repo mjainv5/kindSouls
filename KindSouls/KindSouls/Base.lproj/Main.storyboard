@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5GH-BD-rBX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KindSouls" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="KindSouls" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -59,6 +59,9 @@
                                 <state key="normal" title="Forgot ?">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnForgot:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qu1-Bh-08I"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFW-hm-vBj">
                                 <rect key="frame" x="341" y="265" width="22" height="22"/>
@@ -105,6 +108,9 @@
                                 <state key="normal" title="Register Here!">
                                     <color key="titleColor" red="0.94509803921568625" green="0.53333333333333333" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uAP-Ne-tmK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mj7-ei-N6D">
                                 <rect key="frame" x="45" y="626" width="183" height="21"/>
@@ -114,7 +120,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qn6-eS-Sz9">
-                                <rect key="frame" x="147" y="58" width="81" height="41"/>
+                                <rect key="frame" x="147" y="102" width="81" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80.5" id="7Cj-AA-Fem"/>
                                     <constraint firstAttribute="height" constant="41" id="fwe-1Z-wB5"/>
@@ -142,10 +148,15 @@
                             <constraint firstItem="Qn6-eS-Sz9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cwK-hL-gJI"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="1Bl-iV-FxV"/>
+                    <connections>
+                        <segue destination="oTH-g9-o0h" kind="show" identifier="forgot" id="ChM-RK-dse"/>
+                        <segue destination="5GH-BD-rBX" kind="show" identifier="register" id="B7j-JA-v6Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-151" y="189"/>
+            <point key="canvasLocation" x="872.79999999999995" y="187.55622188905548"/>
         </scene>
         <!--Forgot Password View Controller-->
         <scene sceneID="gdB-M6-ded">
@@ -171,6 +182,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="btnClose:" destination="oTH-g9-o0h" eventType="touchUpInside" id="o5U-v6-xeo"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80u-4W-ic6">
                                 <rect key="frame" x="28" y="138" width="242" height="42"/>
@@ -238,12 +252,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cuh-Tq-U5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="581.60000000000002" y="188.45577211394306"/>
+            <point key="canvasLocation" x="1656.8" y="-152.47376311844079"/>
         </scene>
-        <!--View Controller-->
+        <!--New Registration View Controller-->
         <scene sceneID="RKe-zA-gEa">
             <objects>
-                <viewController id="5GH-BD-rBX" sceneMemberID="viewController">
+                <viewController id="5GH-BD-rBX" customClass="NewRegistrationViewController" customModule="KindSouls" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8bb-14-0fN"/>
                         <viewControllerLayoutGuide type="bottom" id="BRZ-C3-hOP"/>
@@ -252,10 +266,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IOX-x8-ftv">
-                                <rect key="frame" x="67" y="82" width="240" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgY-xu-Kc4">
                                 <rect key="frame" x="37" y="338" width="307" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -285,7 +295,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M0a-Uo-26R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1344.8" y="165.06746626686657"/>
+            <point key="canvasLocation" x="1657" y="535"/>
         </scene>
     </scenes>
 </document>
