@@ -13,6 +13,7 @@
 		BB96939D1E61EC9400F56242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB96939C1E61EC9400F56242 /* Assets.xcassets */; };
 		BB9693A01E61EC9400F56242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96939E1E61EC9400F56242 /* LaunchScreen.storyboard */; };
 		DCBCB3CF1E6414CD0008DD61 /* CommonScreen in Resources */ = {isa = PBXBuildFile; fileRef = DCBCB3CE1E6414CD0008DD61 /* CommonScreen */; };
+		DCF70DD11E695A9500EEF8E8 /* ForgotpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70DD01E695A9500EEF8E8 /* ForgotpasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB96939F1E61EC9400F56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9693A11E61EC9400F56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCBCB3CE1E6414CD0008DD61 /* CommonScreen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonScreen; sourceTree = SOURCE_ROOT; };
+		DCF70DD01E695A9500EEF8E8 /* ForgotpasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForgotpasswordViewController.swift; path = CommonScreen/ForgotpasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		BB9693891E61EC9400F56242 = {
 			isa = PBXGroup;
 			children = (
+				DCF70DD01E695A9500EEF8E8 /* ForgotpasswordViewController.swift */,
 				BB9693941E61EC9400F56242 /* KindSouls */,
 				BB9693931E61EC9400F56242 /* Products */,
 			);
@@ -183,6 +186,7 @@
 			files = (
 				BB9693981E61EC9400F56242 /* ViewController.swift in Sources */,
 				BB9693961E61EC9400F56242 /* AppDelegate.swift in Sources */,
+				DCF70DD11E695A9500EEF8E8 /* ForgotpasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
