@@ -18,5 +18,9 @@ class LoginViewController: UIViewController {
         
         performSegue(withIdentifier: "forgot", sender: nil)
     }
+    @IBAction func btnLogin(_ sender: Any) {
+        
+        performSegue(withIdentifier: "login", sender: nil)
+    }
 }
 

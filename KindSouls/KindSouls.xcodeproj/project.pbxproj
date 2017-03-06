@@ -13,6 +13,7 @@
 		BB96939B1E61EC9400F56242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9693991E61EC9400F56242 /* Main.storyboard */; };
 		BB96939D1E61EC9400F56242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB96939C1E61EC9400F56242 /* Assets.xcassets */; };
 		BB9693A01E61EC9400F56242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96939E1E61EC9400F56242 /* LaunchScreen.storyboard */; };
+		DC5735891E6D3F0C00009053 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5735881E6D3F0C00009053 /* DashboardViewController.swift */; };
 		DCF70DD31E697A4D00EEF8E8 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70DD21E697A4D00EEF8E8 /* NewRegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		BB96939C1E61EC9400F56242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB96939F1E61EC9400F56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9693A11E61EC9400F56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5735881E6D3F0C00009053 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		DCF70DD21E697A4D00EEF8E8 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 		BB9693AA1E61F02C00F56242 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DC5735851E6D3EBF00009053 /* Volunteer */,
 				BB68C7741E695DE2007B793A /* CommonClass */,
 			);
 			path = ViewControllers;
@@ -117,6 +120,14 @@
 			);
 			path = WebserviceManager;
 			sourceTree = "<group>";
+		};
+		DC5735851E6D3EBF00009053 /* Volunteer */ = {
+			isa = PBXGroup;
+			children = (
+				DC5735881E6D3F0C00009053 /* DashboardViewController.swift */,
+			);
+			path = Volunteer;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -193,6 +204,7 @@
 			files = (
 				BB9693981E61EC9400F56242 /* LoginViewController.swift in Sources */,
 				BB9693961E61EC9400F56242 /* AppDelegate.swift in Sources */,
+				DC5735891E6D3F0C00009053 /* DashboardViewController.swift in Sources */,
 				DCF70DD31E697A4D00EEF8E8 /* NewRegistrationViewController.swift in Sources */,
 				BB68C7761E695DFD007B793A /* ForgotPasswordViewController.swift in Sources */,
 			);
