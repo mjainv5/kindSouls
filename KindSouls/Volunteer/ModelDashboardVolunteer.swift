@@ -10,7 +10,10 @@ import UIKit
 
 class ModelDashboardVolunteer: NSObject {
     
-    var volunteerdasboardlabel : uila
+    var labelArrayForVolunteerDashboard = [String]()
+    var notificationArrayForVolunteerDashboard = [Int]()
+    var imageArrayForVolunteerDashboard = [UIImageView]()
+    
     
     
 
