@@ -13,6 +13,7 @@
 		BB96939B1E61EC9400F56242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9693991E61EC9400F56242 /* Main.storyboard */; };
 		BB96939D1E61EC9400F56242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB96939C1E61EC9400F56242 /* Assets.xcassets */; };
 		BB9693A01E61EC9400F56242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96939E1E61EC9400F56242 /* LaunchScreen.storyboard */; };
+		DC08D2881E7A9DDD009C155B /* CustomCellVolunteerDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08D2871E7A9DDD009C155B /* CustomCellVolunteerDashboard.swift */; };
 		DC5735891E6D3F0C00009053 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5735881E6D3F0C00009053 /* DashboardViewController.swift */; };
 		DC57358B1E7146D800009053 /* ModelDashboardVolunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC57358A1E7146D800009053 /* ModelDashboardVolunteer.swift */; };
 		DCF70DD31E697A4D00EEF8E8 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70DD21E697A4D00EEF8E8 /* NewRegistrationViewController.swift */; };
@@ -27,6 +28,7 @@
 		BB96939C1E61EC9400F56242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB96939F1E61EC9400F56242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9693A11E61EC9400F56242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC08D2871E7A9DDD009C155B /* CustomCellVolunteerDashboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellVolunteerDashboard.swift; sourceTree = "<group>"; };
 		DC5735881E6D3F0C00009053 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		DC57358A1E7146D800009053 /* ModelDashboardVolunteer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelDashboardVolunteer.swift; path = Volunteer/ModelDashboardVolunteer.swift; sourceTree = SOURCE_ROOT; };
 		DCF70DD21E697A4D00EEF8E8 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				DC5735881E6D3F0C00009053 /* DashboardViewController.swift */,
+				DC08D2871E7A9DDD009C155B /* CustomCellVolunteerDashboard.swift */,
 			);
 			path = Volunteer;
 			sourceTree = SOURCE_ROOT;
@@ -210,6 +213,7 @@
 				BB9693961E61EC9400F56242 /* AppDelegate.swift in Sources */,
 				DC5735891E6D3F0C00009053 /* DashboardViewController.swift in Sources */,
 				DCF70DD31E697A4D00EEF8E8 /* NewRegistrationViewController.swift in Sources */,
+				DC08D2881E7A9DDD009C155B /* CustomCellVolunteerDashboard.swift in Sources */,
 				BB68C7761E695DFD007B793A /* ForgotPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

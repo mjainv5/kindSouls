@@ -9,6 +9,8 @@
 import UIKit
 
 class DashboardViewController: UIViewController,UICollectionViewDataSource {
+    
+    var arrayModelDashboardVolunteer = [ModelDashboardVolunteer]()
 
     @IBOutlet weak var collctnViewDasboard: UICollectionView!
     override func viewDidLoad() {
@@ -27,7 +29,9 @@ class DashboardViewController: UIViewController,UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let vc = UICollectionViewCell()
+        let vc = collctnViewDasboard.dequeueReusableCell(withReuseIdentifier: "volunteerdashboardcell", for: <#T##IndexPath#>) as! CustomCellVolunteerDashboard
+        vc.labelVolunteerDashboard.text = arrayModelDashboardVolunteer[indexPath.row]
+        
         return vc
     }
 
