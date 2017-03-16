@@ -10,6 +10,9 @@ import UIKit
 
 class ModelDashboardVolunteer: NSObject {
     
+    var volunteerdasboardlabel : uila
+    
     
 
 }
+
